@@ -1,0 +1,32 @@
+{
+	"cSpell.words": [
+		"callsite",
+		"Codacy",
+		"consola",
+		"convertable",
+		"demi",
+		"esbuild",
+		"filesize",
+		"gitmars",
+		"hooks-demi",
+		"iife",
+		"instanceof",
+		"jsdelivr",
+		"lcov",
+		"picocolors",
+		"pnpm",
+		"Retryable",
+		"saqqdy",
+		"tscjs",
+		"tsnd",
+		"typedoc",
+		"Uninteractive",
+		"unpub",
+		"unpublish",
+		"weixin",
+		"workspace-root",
+		"workspace-rootrc",
+		"workspaceroot"
+	],
+	"typescript.tsdk": "node_modules/typescript/lib"
+}
