@@ -1,6 +1,6 @@
 module.exports = {
 	out: 'docs',
-	entryPoints: ['src/workspace-root.ts'],
+	entryPoints: ['src/index.ts'],
 	json: 'docs/out.json',
 	name: 'index.md',
 	includeVersion: true,

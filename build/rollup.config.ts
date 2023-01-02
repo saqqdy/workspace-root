@@ -67,7 +67,7 @@ const options: RollupOptions = {
 
 export default [
 	{
-		input: 'src/workspace-root.ts',
+		input: 'src/index.ts',
 		output: [
 			{
 				file: pkg.main,

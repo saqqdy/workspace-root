@@ -16,7 +16,6 @@ specifiers:
   '@types/jest': ^29.2.5
   '@types/node': ^18.11.18
   chalk: ^5.2.0
-  commander: ^9.4.1
   core-js: ^3.27.1
   coveralls: ^3.1.1
   cross-env: ^7.0.3
@@ -43,7 +42,6 @@ specifiers:
 
 dependencies:
   '@pnpm/find-workspace-dir': 5.0.0
-  commander: 9.4.1
   debug: 4.3.4
   find-up: 6.3.0
   find-yarn-workspace-root: 2.0.0
@@ -3068,11 +3066,6 @@ packages:
   /commander/2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
     dev: true
-
-  /commander/9.4.1:
-    resolution: {integrity: sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==}
-    engines: {node: ^12.20.0 || >=14}
-    dev: false
 
   /commondir/1.0.1:
     resolution: {integrity: sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==}

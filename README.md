@@ -36,9 +36,7 @@ $ yarn global add workspace-root
 ## Usage
 
 ```bash
-workspace-root .
-# or
-workspace-root webapp/app
+
 ```
 
 ## Support & Issues

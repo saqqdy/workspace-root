@@ -3,17 +3,13 @@
 	"description": "A simple utility to get the workspace root",
 	"version": "1.0.0-alpha.2",
 	"packageManager": "pnpm@7.18.0",
-	"bin": {
-		"workspace-root": "./bin/index.js",
-		"workspaceroot": "./bin/index.js"
-	},
-	"main": "./lib/workspace-root.cjs",
-	"module": "./es/workspace-root.mjs",
-	"typings": "./typings/workspace-root.d.ts",
+	"main": "./lib/index.cjs",
+	"module": "./es/index.mjs",
+	"typings": "./typings/index.d.ts",
 	"exports": {
 		".": {
-			"require": "./lib/workspace-root.cjs",
-			"import": "./es/workspace-root.mjs"
+			"require": "./lib/index.cjs",
+			"import": "./es/index.mjs"
 		},
 		"./*": "./*"
 	},
@@ -51,7 +47,6 @@
 	},
 	"dependencies": {
 		"@pnpm/find-workspace-dir": "^5.0.0",
-		"commander": "^9.4.1",
 		"debug": "^4.3.4",
 		"find-up": "^6.3.0",
 		"find-yarn-workspace-root": "^2.0.0",
