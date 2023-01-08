@@ -48,7 +48,7 @@
 	"dependencies": {
 		"@pnpm/find-workspace-dir": "^5.0.0",
 		"debug": "^4.3.4",
-		"find-up": "^6.3.0",
+		"find-up": "^5.0.0",
 		"find-yarn-workspace-root": "^2.0.0",
 		"js-cool": "^2.8.0",
 		"path-exists": "^5.0.0"
