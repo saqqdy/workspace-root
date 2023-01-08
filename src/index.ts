@@ -1,23 +1,37 @@
-import { isAbsolute, join } from 'node:path'
-import findYarnWorkspaceRoot from 'find-yarn-workspace-root'
-import { findWorkspaceDir } from '@pnpm/find-workspace-dir'
-import { findUp, findUpSync } from 'find-up'
-import { pathExists, pathExistsSync } from 'path-exists'
+// import { isAbsolute, join } from 'node:path'
+import findUp from 'find-up'
+// import { pathExists, pathExistsSync } from 'path-exists'
+import { findYarnWorkspaceRoot, findYarnWorkspaceRootSync } from './yarn'
+import { findPnpmWorkspaceRoot, findPnpmWorkspaceRootSync } from './pnpm'
+import { findLernaWorkspaceRoot, findLernaWorkspaceRootSync } from './lerna'
+import { normalizeLerna, normalizePnpm, normalizeYarn } from './utils'
 
-export interface WorkspaceRootResult {
-	name: string
-	version: string
-	isWorkspace: boolean
+/**
+ * workspaceRootSync
+ *
+ * @requires result - Promise<WorkspaceRootResult | null>
+ */
+async function workspaceRoot(pkgPath: string): Promise<string> {
+	return (
+		(await findPnpmWorkspaceRoot(pkgPath)) ||
+		(await findYarnWorkspaceRoot(pkgPath)) ||
+		(await findLernaWorkspaceRoot(pkgPath)) ||
+		''
+	)
 }
 
-const cwd = process.cwd()
-
-async function workspaceRoot(pkgPath: string): Promise<WorkspaceRootResult | null> {
-	//
-}
-
-function workspaceRootSync(pkgPath: string): WorkspaceRootResult | null {
-	//
+/**
+ * workspaceRootSync
+ *
+ * @requires result - WorkspaceRootResult | null
+ */
+function workspaceRootSync(pkgPath: string = process.cwd()): string {
+	return (
+		findPnpmWorkspaceRootSync(pkgPath) ||
+		findYarnWorkspaceRootSync(pkgPath) ||
+		findLernaWorkspaceRootSync(pkgPath) ||
+		''
+	)
 }
 
 export { workspaceRootSync, workspaceRoot, workspaceRoot as default }
