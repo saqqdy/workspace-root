@@ -44,7 +44,7 @@ workspaceRoot().then(path => {
 })
 ```
 
-a 2. use `workspace-root` in sync mode
+2. use `workspace-root` in sync mode
 
 ```js
 import { workspaceRootSync } from 'workspace-root'
