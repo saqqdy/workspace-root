@@ -1,0 +1,222 @@
+{
+	"id": 0,
+	"name": "index.md - v1.0.0",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"originalName": "index.md",
+	"children": [
+		{
+			"id": 7,
+			"name": "default",
+			"kind": 8388608,
+			"kindString": "Reference",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "src/index.ts",
+					"line": 2,
+					"character": 26,
+					"url": "https://github.com/saqqdy/workspace-root/blob/f40fee4/src/index.ts#L2"
+				}
+			],
+			"target": 4
+		},
+		{
+			"id": 4,
+			"name": "workspaceRoot",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExternal": true
+			},
+			"sources": [
+				{
+					"fileName": "node_modules/.pnpm/@node-kit+workspace-root@1.2.1/node_modules/@node-kit/workspace-root/dist/index.d.ts",
+					"line": 7,
+					"character": 17
+				}
+			],
+			"signatures": [
+				{
+					"id": 5,
+					"name": "workspaceRoot",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExternal": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "workspaceRoot"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "result - Promise\\<WorkspaceRootResult | null\\>"
+									}
+								]
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 6,
+							"name": "pkgPath",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExternal": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "the pkg path"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "literal",
+										"value": null
+									}
+								]
+							}
+						],
+						"name": "Promise",
+						"qualifiedName": "Promise",
+						"package": "typescript"
+					}
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "workspaceRootSync",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExternal": true
+			},
+			"sources": [
+				{
+					"fileName": "node_modules/.pnpm/@node-kit+workspace-root@1.2.1/node_modules/@node-kit/workspace-root/dist/index.d.ts",
+					"line": 17,
+					"character": 24
+				}
+			],
+			"signatures": [
+				{
+					"id": 2,
+					"name": "workspaceRootSync",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExternal": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "workspaceRootSync"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "result - WorkspaceRootResult | null"
+									}
+								]
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 3,
+							"name": "pkgPath",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExternal": true,
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "the pkg path"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "literal",
+								"value": null
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"children": [
+				7
+			]
+		},
+		{
+			"title": "Functions",
+			"children": [
+				4,
+				1
+			]
+		}
+	],
+	"sources": [
+		{
+			"fileName": "src/index.ts",
+			"line": 1,
+			"character": 0,
+			"url": "https://github.com/saqqdy/workspace-root/blob/f40fee4/src/index.ts#L1"
+		}
+	]
+}

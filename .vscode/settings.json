@@ -15,6 +15,7 @@
 		"lcov",
 		"picocolors",
 		"pnpm",
+		"reinstaller",
 		"Retryable",
 		"saqqdy",
 		"tscjs",
@@ -22,11 +23,7 @@
 		"typedoc",
 		"Uninteractive",
 		"unpub",
-		"unpublish",
-		"weixin",
-		"workspace-root",
-		"workspace-rootrc",
-		"workspaceroot"
+		"unpublish"
 	],
 	"typescript.tsdk": "node_modules/typescript/lib"
 }
