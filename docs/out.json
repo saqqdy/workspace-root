@@ -17,7 +17,7 @@
 					"fileName": "src/index.ts",
 					"line": 2,
 					"character": 26,
-					"url": "https://github.com/saqqdy/workspace-root/blob/f40fee4/src/index.ts#L2"
+					"url": "https://github.com/saqqdy/workspace-root/blob/a58ff26/src/index.ts#L2"
 				}
 			],
 			"target": 4
@@ -216,7 +216,7 @@
 			"fileName": "src/index.ts",
 			"line": 1,
 			"character": 0,
-			"url": "https://github.com/saqqdy/workspace-root/blob/f40fee4/src/index.ts#L1"
+			"url": "https://github.com/saqqdy/workspace-root/blob/a58ff26/src/index.ts#L1"
 		}
 	]
 }
