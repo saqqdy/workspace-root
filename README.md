@@ -2,6 +2,8 @@
 
 # workspace-root
 
+> This project has been migrated to [workspace-root](https://github.com/saqqdy/node-kit/tree/master/packages/workspace-root#readme)
+
 A simple utility to get the workspace root
 
 [![NPM version][npm-image]][npm-url]
